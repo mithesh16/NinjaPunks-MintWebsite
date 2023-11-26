@@ -1,0 +1,40 @@
+.footer {
+        background:black;
+        color: #fff;
+        text-align: center;
+        padding: 30px 0;
+        height: 300px;
+      }
+.footer h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+.footer p{
+    font-size: 12px;
+}
+.logo{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    top: 18px;
+    align-self: center;
+    margin: auto;
+}
+.facebook{
+    position: relative;
+    size: 7px;
+    margin: 10px;
+    
+}
+.twitter{
+    position: relative;
+    size: 7px;
+    margin: 10px;
+}
+.email{
+    position: relative;
+    size: 7px;
+    margin: 10px;
+}

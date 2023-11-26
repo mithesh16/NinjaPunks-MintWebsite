@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=VT323");
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P");
+
+*{
+    font-family:"Press Start 2P" ,"VT323";
+    line-height: 0.7cm;
+  
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../videos/170955.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: 40% 40%;
+    opacity: 70%;
+    
+}
