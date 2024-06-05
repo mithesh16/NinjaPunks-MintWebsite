@@ -2,7 +2,7 @@ import React from 'react'
 import "./team.css"
 import githublogo from "../../images/social-media-icons/github.png"
 import linkedinlogo from "../../images/social-media-icons/linkedin.png"
-import Profile from "../../images/Profile.jpeg"
+import Profile from "../../images/mithesh2.jpeg"
 const Team = () => {
   return (
    
@@ -16,7 +16,7 @@ const Team = () => {
               <img src={Profile} className="profile-img" alt="profilepic"/>
               <h3 className='username'>Mithesh</h3>
               <h5>Full stack developer</h5>
-            <div >
+            <div className='logos' >
             <a href='https://github.com/mithesh16'  target="_blank" rel="noreferrer" >
               <img className='logos' src={githublogo} alt="githublogologo"/>
              </a>

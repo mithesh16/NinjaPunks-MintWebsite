@@ -5,8 +5,10 @@
 
 .team{
     background-color:black;
-    height: 750px;
+    height: max-content;
+padding-bottom: 20px;
     width: 100%;
+
 }
 
 .containers{
@@ -46,7 +48,7 @@
     height: 260px;
     width: 260px;
     border-radius: 50%;
-  margin-left: 1.5em;
+    margin-left: 1.5em;
     cursor : pointer;
     transition: 400ms;
 }
@@ -70,10 +72,13 @@
 }
 .logos{
     height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    margin-left: 20px;
-    
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        margin-top: 10px;
+
 }
 @media (max-width: 668px) {
     .head{
@@ -84,7 +89,7 @@
 }
 @media (max-width: 380px) {
     .team{
-        height: 700px;
+        height: max-content;
         align-items: center;
     }
     .head{

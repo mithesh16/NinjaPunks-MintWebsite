@@ -22,8 +22,8 @@ const About = () => {
               Can the Ninja Punks win the war against Robots and bring peace to the world? Or do the Robots continue their domination?
               </p>
               <br/>
-              <span className='t'>Mint Ninja punks Now to help save Shinobi world.
-                </span>
+              <p className='txt'> <span>Mint Ninja punks Now to help save Shinobi world.</span>
+                </p>
             </div>
         </div>
 
